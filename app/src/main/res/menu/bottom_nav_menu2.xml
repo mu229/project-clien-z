@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/biodata1"
+        android:icon="@drawable/baseline_attach_money_24"
+        android:title="biodata1" />
+    <item
+        android:id="@+id/biodata2"
+        android:icon="@drawable/baseline_catching_pokemon_24"
+        android:title="biodata2" />
+    <item
+        android:id="@+id/biodata3"
+        android:icon="@drawable/baseline_batch_prediction_24"
+        android:title="biodata3" />
+</menu>

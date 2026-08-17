@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pemasukanFragment">
+
+    <fragment
+        android:id="@+id/pemasukanFragment"
+        android:name="com.example.projectzulfa.PemasukanFragment"
+        android:label="Pemasukan" />
+
+    <fragment
+        android:id="@+id/pengeluaranFragment"
+        android:name="com.example.projectzulfa.PengeluaranFragment"
+        android:label="Pengeluaran" />
+
+    <fragment
+        android:id="@+id/analisisFragment"
+        android:name="com.example.projectzulfa.NoteFragment"
+        android:label="Catatan" />
+
+</navigation>
